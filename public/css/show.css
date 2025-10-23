@@ -1,0 +1,26 @@
+/*this is the text and buttons ontop of the arjs camera */
+#arjsDebugUIContainer{
+    display:none;
+
+}
+
+.flex-container{
+    display: flex;
+}
+
+#pause_button, #play_button{
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    z-index: 1;
+    left: 50%;
+}
+
+#scale{
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    z-index: 1;
+    left: 10%;
+}
+
